@@ -1,0 +1,2 @@
+{"event_type": "purchase", "timestamp": "2017-06-13 11:33:01", "id": "0", "amount": "10.0", "mean": "4.50", "sd": "1.50"}
+{"event_type": "purchase", "timestamp": "2017-06-13 11:33:01", "id": "2", "amount": "20.0", "mean": "6.50", "sd": "3.50"}
