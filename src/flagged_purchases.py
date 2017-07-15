@@ -15,10 +15,10 @@ class CustomerNetwork(object):
     friends : Networkx.Graph
         The social network graph where nodes are personal IDs.
     
-    purchases : data_structures.Heap
-        A `dict` where the keys are IDs, and the values are tuples of the form
-        (timestamp, amount). Timestamps are of `datetime.datetime` objects and
-        `amount` is a `float`.
+    purchases : list
+        A `dict` where the keys are IDs, and the values are a list of tuples of 
+        the form (index, timestamp, amount). Indexes are `int`, timestamps are 
+        of `datetime.datetime` objects and `amount` is a `float`.
     
     d : int
         The degree of separation to search for purchases.
