@@ -8,7 +8,7 @@ from collections import OrderedDict
 
 class CustomerNetwork(object):
     """A custom class for holding the social network customer connections in the 
-    form of a graph and the purchases in the form of a dictionary of heaps.
+    form of a graph and the purchases in the form of a dictionary of stacks.
     
     Parameters
     ----------
